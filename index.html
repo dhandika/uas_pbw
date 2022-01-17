@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <mwta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viemport" content="width=device-width,initial-scale=1.0">
+    <tittle>movie seat booking</tittle>
+    <link rel="styleheet" type= "text/css" href="style.css " />
+</head>
+<body>
+    <div class="movie-container">
+        <label> select a movie:</label>
+        <select id="movie">
+            <option value="220">godzila vs kong ($6)</option>
+            <option value="320">radhe ($6)</option>
+            <option value="250">RRR ($6)</option>
+            <option value="260">F9 ($6)</option>
+        </select>
+    </div>
+    <ul> class="showcase">
+        <li>
+            <div class="seat"></div>
+            <small>Available</small>
+        </li>
+        <li>
+            <div class="seat selected">
+                <small>selected</small>
+            </div>
+        </li>
+        <li>
+            <div class+"seat sold"></div>
+            <small>sold</small>
+        </li>
+    </ul>
+    <div class="container">
+        <div class="screen"></div>
+
+        <div class="row">
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+        </div>
+
+        <div class="row">
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+        </div>
+
+        <div class="row">
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat sold"></div>
+            <div class="seat sold"></div>
+            <div class="seat sold"></div>
+            <div class="seat sold"></div>
+            <div class="seat"></div>
+        </div>
+
+        <div class="row">
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat sold"></div>
+        </div>
+    </div>
+    <p class="text">
+        you have selected <span id="count">0</span> seat for a price of $5 <span id="total">0</span>
+    </p>
+    <script src="script.js"></script>
+</body>
+</html> 
